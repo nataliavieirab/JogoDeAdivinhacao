@@ -4,18 +4,49 @@
 // 3. Nosso jogo deve validar a tentativa do jogador e exibir uma mensagem
 
 using System;
-using System.Security.Cryptography; //Biblioteca padrão de criptografia
+using System.Security.Cryptography; // Biblioteca padrão de criptografia
 
-Console.WriteLine("--------------------------");
-Console.WriteLine("Jogo de Adivinhação");
-Console.WriteLine("--------------------------");
+// bool deveContinuar = true;
 
-int numeroAleatorio = RandomNumberGenerator.GetInt32(1, 21);
+while (true)
+{
+  // Console.Clear();
 
-Console.Write("Digite um número entre 1 e 20: ");
-string? chute = Console.ReadLine();
+  Console.WriteLine("--------------------------");
+  Console.WriteLine("Jogo de Adivinhação");
+  Console.WriteLine("--------------------------");
 
-Console.WriteLine("O valor digitado foi: " + chute);
-Console.WriteLine("O valor aleatório era: " + numeroAleatorio);
+  int numeroAleatorio = RandomNumberGenerator.GetInt32(1, 21);
 
-Console.ReadLine();
+  Console.Write("Digite um número entre 1 e 20: ");
+  int numeroDigitado = Convert.ToInt32(Console.ReadLine());
+
+  if (numeroDigitado == numeroAleatorio)
+  {
+    Console.WriteLine("--------------------------");
+    Console.WriteLine("Parabéns, você acertou!!");
+    Console.WriteLine("--------------------------");
+  }
+  else if (numeroDigitado > numeroAleatorio)
+  {
+    Console.WriteLine("--------------------------");
+    Console.WriteLine("O número digitado foi maior do que o número secreto!");
+    Console.WriteLine("--------------------------");
+  }
+  else
+  {
+    Console.WriteLine("--------------------------");
+    Console.WriteLine("O número digitado foi menor do que o número secreto!");
+    Console.WriteLine("--------------------------");
+  }
+
+  Console.Write("Deseja continuar? [S/N] --> ");
+  string? opcaoContinuar = Console.ReadLine();
+
+  if (opcaoContinuar.ToUpper() != "S")
+  {
+    break;
+  }
+
+  Console.ReadLine();
+}
