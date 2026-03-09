@@ -12,3 +12,4 @@
 /home/natalia/Documents/AcademiaDoProgramador/JogoDeAdivinhacao/JogoDeAdivinhacao.ConsoleApp/obj/Debug/net10.0/JogoDeAdivinhacao.ConsoleApp.pdb
 /home/natalia/Documents/AcademiaDoProgramador/JogoDeAdivinhacao/JogoDeAdivinhacao.ConsoleApp/obj/Debug/net10.0/JogoDeAdivinhacao.ConsoleApp.genruntimeconfig.cache
 /home/natalia/Documents/AcademiaDoProgramador/JogoDeAdivinhacao/JogoDeAdivinhacao.ConsoleApp/obj/Debug/net10.0/ref/JogoDeAdivinhacao.ConsoleApp.dll
+/home/natalia/Documents/AcademiaDoProgramador/JogoDeAdivinhacao/JogoDeAdivinhacao.ConsoleApp/obj/Debug/net10.0/JogoDeAdivinhacao.ConsoleApp.sourcelink.json
