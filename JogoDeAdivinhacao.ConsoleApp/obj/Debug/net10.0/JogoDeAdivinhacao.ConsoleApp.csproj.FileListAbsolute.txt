@@ -1,0 +1,14 @@
+/home/natalia/Documents/AcademiaDoProgramador/JogoDeAdivinhacao/JogoDeAdivinhacao.ConsoleApp/bin/Debug/net10.0/JogoDeAdivinhacao.ConsoleApp
+/home/natalia/Documents/AcademiaDoProgramador/JogoDeAdivinhacao/JogoDeAdivinhacao.ConsoleApp/bin/Debug/net10.0/JogoDeAdivinhacao.ConsoleApp.deps.json
+/home/natalia/Documents/AcademiaDoProgramador/JogoDeAdivinhacao/JogoDeAdivinhacao.ConsoleApp/bin/Debug/net10.0/JogoDeAdivinhacao.ConsoleApp.runtimeconfig.json
+/home/natalia/Documents/AcademiaDoProgramador/JogoDeAdivinhacao/JogoDeAdivinhacao.ConsoleApp/bin/Debug/net10.0/JogoDeAdivinhacao.ConsoleApp.dll
+/home/natalia/Documents/AcademiaDoProgramador/JogoDeAdivinhacao/JogoDeAdivinhacao.ConsoleApp/bin/Debug/net10.0/JogoDeAdivinhacao.ConsoleApp.pdb
+/home/natalia/Documents/AcademiaDoProgramador/JogoDeAdivinhacao/JogoDeAdivinhacao.ConsoleApp/obj/Debug/net10.0/JogoDeAdivinhacao.ConsoleApp.GeneratedMSBuildEditorConfig.editorconfig
+/home/natalia/Documents/AcademiaDoProgramador/JogoDeAdivinhacao/JogoDeAdivinhacao.ConsoleApp/obj/Debug/net10.0/JogoDeAdivinhacao.ConsoleApp.AssemblyInfoInputs.cache
+/home/natalia/Documents/AcademiaDoProgramador/JogoDeAdivinhacao/JogoDeAdivinhacao.ConsoleApp/obj/Debug/net10.0/JogoDeAdivinhacao.ConsoleApp.AssemblyInfo.cs
+/home/natalia/Documents/AcademiaDoProgramador/JogoDeAdivinhacao/JogoDeAdivinhacao.ConsoleApp/obj/Debug/net10.0/JogoDeAdivinhacao.ConsoleApp.csproj.CoreCompileInputs.cache
+/home/natalia/Documents/AcademiaDoProgramador/JogoDeAdivinhacao/JogoDeAdivinhacao.ConsoleApp/obj/Debug/net10.0/JogoDeAdivinhacao.ConsoleApp.dll
+/home/natalia/Documents/AcademiaDoProgramador/JogoDeAdivinhacao/JogoDeAdivinhacao.ConsoleApp/obj/Debug/net10.0/refint/JogoDeAdivinhacao.ConsoleApp.dll
+/home/natalia/Documents/AcademiaDoProgramador/JogoDeAdivinhacao/JogoDeAdivinhacao.ConsoleApp/obj/Debug/net10.0/JogoDeAdivinhacao.ConsoleApp.pdb
+/home/natalia/Documents/AcademiaDoProgramador/JogoDeAdivinhacao/JogoDeAdivinhacao.ConsoleApp/obj/Debug/net10.0/JogoDeAdivinhacao.ConsoleApp.genruntimeconfig.cache
+/home/natalia/Documents/AcademiaDoProgramador/JogoDeAdivinhacao/JogoDeAdivinhacao.ConsoleApp/obj/Debug/net10.0/ref/JogoDeAdivinhacao.ConsoleApp.dll
