@@ -6,11 +6,9 @@
 using System;
 using System.Security.Cryptography; // Biblioteca padrão de criptografia
 
-// bool deveContinuar = true;
-
 while (true)
 {
-  // Console.Clear();
+  Console.Clear();
 
   Console.WriteLine("--------------------------");
   Console.WriteLine("Jogo de Adivinhação");
