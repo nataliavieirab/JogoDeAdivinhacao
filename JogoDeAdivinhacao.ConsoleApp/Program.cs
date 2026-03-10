@@ -59,6 +59,9 @@ while (true)
 
   int numeroAleatorio = RandomNumberGenerator.GetInt32(1, numeroMaximo + 1);
 
+  int[] numerosDigitados = new int[tentativasMaximas];
+  int contadorNumerosDigitados = 0;
+
   for (int tentativa = 1; tentativa <= tentativasMaximas; tentativa++)
   {
     Console.Clear();
@@ -68,6 +71,37 @@ while (true)
 
     Console.Write($"Digite um número entre 1 e {numeroMaximo}: ");
     int numeroDigitado = Convert.ToInt32(Console.ReadLine());
+
+    bool numeroEstaRepetido = false;
+
+    for (int indiceChecado = 0; indiceChecado < numerosDigitados.Length; indiceChecado++)
+    {
+      if (numerosDigitados[indiceChecado] == numeroDigitado)
+      {
+        numeroEstaRepetido = true;
+        break;
+      }
+    }
+
+    if (numeroEstaRepetido == true)
+    {
+      Console.WriteLine("------------------------------------");
+      Console.WriteLine("Você já digitou esse número, tente novamente.");
+      Console.WriteLine("------------------------------------");
+      Console.Write("Digite ENTER para continuar...");
+      Console.ReadLine();
+
+      tentativa--;
+
+      continue;
+    }
+
+    if (contadorNumerosDigitados < numerosDigitados.Length)
+    {
+      numerosDigitados[contadorNumerosDigitados] = numeroDigitado;
+
+      contadorNumerosDigitados++;
+    }
 
     if (numeroDigitado == numeroAleatorio)
     {
