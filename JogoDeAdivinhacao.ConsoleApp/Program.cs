@@ -10,7 +10,7 @@
 // 3. Implemente uma funcionalidade de Pontuação
 
 using System;
-using System.Security.Cryptography; // Biblioteca padrão de criptografia
+using System.Security.Cryptography;
 
 while (true)
 {
