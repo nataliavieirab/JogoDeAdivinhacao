@@ -39,9 +39,9 @@ while (true)
   }
 
   Console.Write("Deseja continuar? [S/N] --> ");
-  string? opcaoContinuar = Console.ReadLine();
+  string? opcaoContinuar = Console.ReadLine(); // nullable
 
-  if (opcaoContinuar.ToUpper() != "S")
+  if (opcaoContinuar?.ToUpper() != "S")
   {
     break;
   }
