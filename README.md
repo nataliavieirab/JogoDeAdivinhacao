@@ -12,9 +12,9 @@ No início do jogo, é gerado um número secreto aleatório entre 1 e 20. Os jog
 
 Os níveis de dificuldade serão: 
 
-1. Fácil = 15 chances 
-2. Médio = 10 chances 
-3. Difícil = 5 chances
+1. Fácil = 10 tentativas 
+2. Médio = 5 tentativas 
+3. Difícil = 3 tentativas
 
 ## Entrada
 
